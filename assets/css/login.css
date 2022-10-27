@@ -26,3 +26,27 @@ body {
 .reg-box {
     display: none;
 }
+
+.layui-form {
+    padding: 0 30px;
+}
+
+.links {
+    float: right;
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+.layui-form-item {
+    position: relative;
+}
+
+.layui-form-item .layui-icon {
+    position: absolute;
+    top: 5px;
+    left: 7px;
+}
+
+.layui-form-item input {
+    padding-left: 38px;
+}
