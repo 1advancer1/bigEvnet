@@ -39,7 +39,7 @@ $(function() {
         })
     })
     $('.form_login').on('submit', function(e) {
-        // 1. 组织默认行为的提交
+        // 1. 默认行为的提交
         e.preventDefault();
         $.ajax({
             url: '/api/login',
